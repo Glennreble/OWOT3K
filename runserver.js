@@ -138,8 +138,8 @@ var pluginMgr = null;
 
 // Global
 CONST = {};
-CONST.tileCols = 16;
-CONST.tileRows = 8;
+CONST.tileCols = 1;
+CONST.tileRows = 1;
 CONST.tileArea = CONST.tileCols * CONST.tileRows;
 
 // tile cache for fetching and updating
@@ -314,14 +314,14 @@ uvias.run = async function(query, data) {
 if(testUviasIds) {
 	uvias.id = "owottest";
 	uvias.name = "Our World Of Text Test Server";
-	uvias.domain = "test.ourworldoftext.com";
+	uvias.domain = "test.horn.ex";
 	uvias.private = true;
 	uvias.only_verified = false;
 	uvias.custom_css_file_path = settings.paths.uvias_css;
 } else {
 	uvias.id = "owot";
 	uvias.name = "Our World Of Text";
-	uvias.domain = "ourworldoftext.com";
+	uvias.domain = "horn.ex";
 	uvias.private = false;
 	uvias.only_verified = false;
 	uvias.custom_css_file_path = settings.paths.uvias_css;
