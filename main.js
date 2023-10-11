@@ -71,7 +71,7 @@ function maintenanceMode() {
 	}
 
 	const time = new Date();
-	const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
 	const timeStr = `${months[time.getUTCMonth()]} ${time.getUTCDate()}, ${time.getUTCFullYear()}`;
 	const server = http.createServer(function(req, res) {
 		try {
