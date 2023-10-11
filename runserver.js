@@ -314,14 +314,14 @@ uvias.run = async function(query, data) {
 if(testUviasIds) {
 	uvias.id = "owottest";
 	uvias.name = "Our World Of Text Test Server";
-	uvias.domain = "test.horn.ex";
+	uvias.domain = "test.hornexgd.com";
 	uvias.private = true;
 	uvias.only_verified = false;
 	uvias.custom_css_file_path = settings.paths.uvias_css;
 } else {
 	uvias.id = "owot";
 	uvias.name = "Our World Of Text";
-	uvias.domain = "horn.ex";
+	uvias.domain = "hornexgd.com";
 	uvias.private = false;
 	uvias.only_verified = false;
 	uvias.custom_css_file_path = settings.paths.uvias_css;
